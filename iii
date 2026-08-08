@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Functions</h2>
+<p>Do a calculation and then display the result.</p>
+<p id="demo"></p>
+
+<script>
+// Function to add two numbers
+function add(a, b) {
+  return a + b;
+}
+
+// Function to calculate the average using the add function
+function average(a, b) {
+  let sum = add(a, b);
+  return sum / 2;
+}
+
+// Call the average function and store the result
+let result = average(10, 20);
+
+// Display the result on the webpage
+document.getElementById("demo").innerHTML = result;
+</script>
+
+</body>
+</html>
